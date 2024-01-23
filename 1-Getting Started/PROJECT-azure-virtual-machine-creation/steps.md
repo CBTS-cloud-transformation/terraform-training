@@ -22,7 +22,7 @@ Create a directory for your Terraform project and create a Terraform configurati
 
 In your terminal, navigate to the directory containing your Terraform configuration files and run:
 
-```CMD
+```cmd
 terraform init
 ```
 
@@ -32,7 +32,7 @@ This command initializes the Terraform working directory, downloading any necess
 
 Run the following command to create the Azure resources defined in your Terraform configuration:
 
-```CMD
+```cmd
 terraform apply
 ```
 
@@ -46,7 +46,7 @@ After Terraform completes the provisioning process, you can verify the resources
 
 If you want to remove the resources created by Terraform, you can use the following command:
 
-```CMD
+```cmd
 terraform destroy
 ```
 

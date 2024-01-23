@@ -1,8 +1,8 @@
-# Terraform Zero to Hero course
+# Terraform course
 
-## Day 1: Getting Started with Terraform
+## Getting Started with Terraform
 
-#### Introduction to Terraform and IaC
+### Introduction to Terraform and IaC
 
 In this session, we'll introduce you to the fundamental concepts of Terraform and Infrastructure as Code (IaC). Learn why Terraform is crucial for managing infrastructure and how IaC streamlines provisioning.
 
@@ -10,9 +10,9 @@ In this session, we'll introduce you to the fundamental concepts of Terraform an
 
 Get your hands dirty by installing Terraform on both MacOS, Linux and Windows. We'll guide you through the process with clear instructions and commands.
 
-#### Setting up Terraform for Azure
+#### Setting up Terraform
 
-Dive into Azure integration with Terraform. You'll learn how to set up your Azure credentials and configure the Azure provider within Terraform to start provisioning resources.
+Dive into provider integration with Terraform. You'll learn how to authenticate to and configure the provider within Terraform to start provisioning resources.
 
 #### Writing Your First Terraform Code
 
@@ -22,17 +22,17 @@ Start writing actual Terraform code with a simple example. Learn about the basic
 
 Understand the lifecycle of terraform. What is terraform `init`, `plan` and `apply`.
 
-#### Launching an Azure Virtual Machine Instance
+#### Launching a Virtual Machine 
 
-Take your skills up a notch by provisioning a Virtual Machine instance on Azure using Terraform. Explore attributes like instance sku, os, and tags to customize your instance.
+Take your skills up a notch by provisioning a Virtual Machine using Terraform. Explore attributes like ami, sku, os, and tags to customize your instance.
 
 #### Terraform State Basics
 
 Understand the importance of Terraform state files. Learn about desired and current states, and how Terraform manages these states to ensure infrastructure consistency.
 
-## Day 2: Advanced Terraform Configuration
+## Advanced Terraform Configuration
 
-#### Understanding Providers and Resources
+### Understanding Providers and Resources
 
 Deepen your knowledge of providers and resources. Explore the role of different providers for various cloud platforms and understand how resources define infrastructure components.
 
@@ -48,9 +48,9 @@ Elevate your configurations with conditional expressions, adding logic to your c
 
 Master the art of debugging Terraform configurations.Plus, learn why proper formatting with terraform fmt is crucial.
 
-## Day 3: Building Reusable Infrastructure with Modules
+## Building Reusable Infrastructure with Modules
 
-#### Creating Modular Infrastructure with Terraform Modules
+### Creating Modular Infrastructure with Terraform Modules
 
 Unlock the potential of reusability with Terraform modules. Understand how modules enable you to create shareable and organized infrastructure components.
 
@@ -70,9 +70,9 @@ Utilize module outputs to access critical information or propagate data to your 
 
 Embark on a journey through the Terraform Registry. Discover pre-built, community-contributed modules and learn how to incorporate them into your own configurations.
 
-## Day 4: Collaboration and State Management
+## Collaboration and State Management
 
-#### Collaborating with Git and Version Control
+### Collaborating with Git and Version Control
 
 Collaborate effectively using Git and version control. Grasp fundamental Git commands such as cloning, pulling, and pushing repositories to enhance teamwork.
 
@@ -84,13 +84,13 @@ Tackle security challenges associated with sensitive data in version control. Ex
 
 Uncover the role of Terraform backends in remote state storage. Learn why they're essential for maintaining infrastructure state and configurations.
 
-#### Implementing Azure Storage Account Backend for State Storage
+#### Implementing Backend for State Storage
 
-Get hands-on experience configuring an Azure Storage Account bucket as a backend for remote state storage. Understand how this setup improves collaboration and state management.
+Get hands-on experience configuring a backend for remote state storage. Understand how this setup improves collaboration and state management.
 
-## Day 5: Provisioning and Provisioners
+## Provisioning and Provisioners
 
-#### Understanding Provisioners in Terraform
+### Understanding Provisioners in Terraform
 
 Learn about provisioners, mechanisms for executing actions on resources during creation and destruction. Understand how they facilitate customization.
 
@@ -106,9 +106,9 @@ Discover when to use provisioners during resource creation or destruction. Confi
 
 Gain insights into handling provisioner failures. Learn about retry mechanisms, timeouts, and the on_failure attribute to control provisioner behavior on failure.
 
-## Day 6: Managing Environments with Workspaces
+## Managing Environments with Workspaces
 
-#### Introduction to Terraform Workspaces
+### Introduction to Terraform Workspaces
 
 Understand the concept of workspaces and their role in managing different environments. Learn how workspaces aid in isolating configurations.
 
@@ -120,9 +120,9 @@ Learn how to create new workspaces and switch between them using terraform works
 
 Learn deeper into how workspaces streamline environment management. Comprehend their benefits in maintaining separate state files for various settings.
 
-## Day 7: Security and Advanced Topics
+## Security and Advanced Topics
 
-#### HashiCorp Vault Overview
+### HashiCorp Vault Overview
 
 Gain an overview of HashiCorp Vault, a powerful tool for secret management and data protection. Understand its significance in maintaining secure configurations.
 

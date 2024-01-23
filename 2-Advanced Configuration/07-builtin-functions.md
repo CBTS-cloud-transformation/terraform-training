@@ -1,6 +1,6 @@
 # Built-in Functions
 
-Terraform is an infrastructure as code (IaC) tool that allows you to define and provision infrastructure resources in a declarative manner. Terraform provides a wide range of built-in functions that you can use within your configuration files (usually written in HashiCorp Configuration Language, or HCL) to manipulate and transform data. These functions help you perform various tasks when defining your infrastructure. Here are some commonly used built-in functions in Terraform:
+Terraform provides a wide range of built-in functions that you can use within your configuration files to manipulate and transform data. These functions help you perform various tasks when defining your infrastructure. Here are some commonly used built-in functions in Terraform:
 
 1. `concat(list1, list2, ...)`: Combines multiple lists into a single list.
 
@@ -16,7 +16,7 @@ variable "list2" {
 }
 
 output "combined_list" {
-  value = concat(var.list1, var.list2)
+  value = concat(var.list1, var.list2) # Returns ["a", "b", "c", "d"]
 }
 ```
 
